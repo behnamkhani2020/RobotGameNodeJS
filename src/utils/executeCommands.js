@@ -1,5 +1,5 @@
 const StateController = require('../../models/StateController');
-const asyncForEach = require('./asyncForeEach');
+const asyncForEach = require('./asyncForEach');
 const drawBoard = require('./drawBoard');
 const executeCommands =  async (commands)=>{
     const stateController = new StateController();
